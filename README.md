@@ -1,4 +1,4 @@
-# IT_Ticket_Classification_Project
+# IT Ticket Classification
 > In IT support environments, efficiently handling large volumes of incoming tickets is crucial for reducing response time and improving customer satisfaction. This project aims to automate the classification of IT support tickets into predefined categories using Natural Language Processing (NLP) and Deep Learning. By analyzing ticket descriptions, the goal is to categorize them accurately, improving response times and optimizing resource allocation. The project not only utilizes traditional deep learning models but also extends the approach by leveraging Llama 3.1, a state-of-the-art large language model (LLM), to enhance classification performance. This extension demonstrates the ability to apply cutting-edge LLMs in real-world applications, showcasing their potential in handling complex text data and improving overall operational efficiency.
 
 

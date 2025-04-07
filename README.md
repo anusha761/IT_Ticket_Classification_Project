@@ -43,6 +43,11 @@ Llama 3.1 (meta-llama/Meta-Llama-3.1-8B-Instruct) trained with 24% of the data
 - seaborn - version 0.13.2
 - scikit-learn - version 1.3.1
 - scipy - version 1.13.1
+- bitsandbytes - version 0.41.0
+- transformers - version 4.37.0
+- accelerate - version 0.18.0
+- peft - version 0.11.1
+- llama - version 3.1 (meta-llama/Meta-Llama-3.1-8B-Instruct)
 
 
 

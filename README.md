@@ -11,7 +11,7 @@
 
 ## General Information
 - IT support teams receive large volumes of tickets daily, making manual classification inefficient and sometimes incorrect. Misclassification of tickets can lead to delays in resolving critical issues. The objective is to build a ticket classification model that can automatically assign tickets to predefined categories. The project compares multiple models to identify the most effective approach.
-- The project starts with a traditional machine learning approach, involving TFIDF Vectorization, followed by Logistic Regression and RandomForest.
+- The project starts with a traditional machine learning approach, involving TFIDF Vectorization, followed by RandomForest.
 - For further improvement, GloVe word embedding technique was applied, which is a powerful pretrained word embedding to capture semantic meaning in the text data. This was followed by applying and tuning deep learning models like GRU (Gated Recurrent Unit) and LSTM (Long Short-Term Memory). After training and evaluation the LSTM model was seen to provide most decent performance.
 - for LSTM model with droput, train accuracy was 0.9270, test accuracy was 0.9130, test F1 score was 0.9131.
   
@@ -21,7 +21,7 @@
 
 
 ## Conclusions
-Several approaches were evaluated to arrive at the final model. The initial method involved TFIDF Vectorization and traditional machine learning models like Logistic Regression and RandomForest. The deep learning approach incorporated Tokenization and the GloVe word embedding technique, followed by models like GRU (Gated Recurrent Unit) and LSTM (Long Short-Term Memory). The extension of this project applies Llama 3.1, demonstrating the effectiveness of large language models in text classification tasks. Despite using a subset of the full dataset, the LLM-based model shows promising results.
+Several approaches were evaluated to arrive at the final model. The initial method involved TFIDF Vectorization and traditional machine learning models like RandomForest. The deep learning approach incorporated Tokenization and the GloVe word embedding technique, followed by models like GRU (Gated Recurrent Unit) and LSTM (Long Short-Term Memory). The extension of this project applies Llama 3.1, demonstrating the effectiveness of large language models in text classification tasks. Despite using a subset of the full dataset, the LLM-based model shows promising results.
 
 LSTM (Long Short-Term Memory) with Dropout
 
